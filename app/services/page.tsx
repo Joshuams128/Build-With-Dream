@@ -30,8 +30,8 @@ export default function ServicesPage() {
           <div className="flex justify-center md:justify-start md:w-1/2">
             <div className="relative aspect-square w-72 max-w-full overflow-hidden rounded-full shadow-md">
               <Image
-                src="/service1.jpg"
-                alt="Bathroom renovation"
+                src="/portfolio/portfolio-bath-shower.svg"
+                alt="Luxury bathroom renovation"
                 fill
                 className="object-cover"
               />
@@ -72,8 +72,8 @@ export default function ServicesPage() {
           <div className="flex justify-center md:justify-start md:w-1/2">
             <div className="relative aspect-square w-72 max-w-full overflow-hidden rounded-full shadow-md">
               <Image
-                src="/services-stone.jpg"
-                alt="Stone veneers and masonry"
+                src="/portfolio/portfolio-fireplace.svg"
+                alt="Stone and fireplace millwork"
                 fill
                 className="object-cover"
               />
@@ -122,8 +122,8 @@ export default function ServicesPage() {
           <div className="flex justify-center md:justify-start md:w-1/2">
             <div className="relative aspect-square w-72 max-w-full overflow-hidden rounded-full shadow-md">
               <Image
-                src="/services-home.jpg"
-                alt="Home improvements exterior"
+                src="/portfolio/portfolio-kitchen-island.svg"
+                alt="Open concept kitchen and living"
                 fill
                 className="object-cover"
               />
