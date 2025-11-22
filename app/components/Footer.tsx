@@ -1,42 +1,26 @@
-// components/Footer.tsx
-export function Footer() {
-  const year = new Date().getFullYear();
+import Link from "next/link";
 
+export default function Footer() {
   return (
-    <footer className="border-t border-slate-200 bg-slate-50">
-      <div className="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-8 text-slate-700 md:flex-row md:items-center md:justify-between">
-        <div className="space-y-2 text-center md:text-left">
-          <div className="text-lg font-semibold text-[#0574C9]">Build With Dream</div>
-          <p className="text-sm text-slate-600">
-            Trusted renovations, repairs, and home improvements across Durham Region.
-          </p>
-          <p className="text-xs text-slate-500">© {year} Build With Dream. All Rights Reserved.</p>
-        </div>
+    <footer className="bg-slate-900 py-8 mt-16 text-slate-200">
+      <div className="mx-auto flex max-w-6xl flex-col gap-4 px-4 text-sm md:flex-row md:items-center md:justify-between">
+        <p className="text-xs md:text-sm">
+          © {new Date().getFullYear()} Build With Dream. All rights reserved.
+        </p>
 
-        <div className="flex items-center justify-center gap-4 text-sm font-medium text-[#0574C9] md:justify-end">
-        <div className="flex items-center justify-center gap-4 text-sm font-medium text-[#0574C9]">
-          <a
-            href="https://www.instagram.com"
-            target="_blank"
-            rel="noreferrer"
-            className="flex items-center gap-2 hover:text-[#045e9f]"
-          >
-            <span aria-hidden>📷</span>
-            <span>Instagram</span>
-          </a>
-          <a
-            href="https://www.facebook.com"
-            target="_blank"
-            rel="noreferrer"
-            className="flex items-center gap-2 hover:text-[#045e9f]"
-          >
-            <span aria-hidden>👍</span>
-            <span>Facebook</span>
-          </a>
-        </div>
-
-        <div className="text-center text-xs text-slate-500 md:text-right">
-          Website by Ascension Marketing.
+        <div className="flex flex-wrap items-center gap-4 text-xs md:text-sm">
+          <Link href="/services" className="hover:underline">
+            Services
+          </Link>
+          <Link href="/portfolio" className="hover:underline">
+            Portfolio
+          </Link>
+          <Link href="/testimonials" className="hover:underline">
+            Testimonials
+          </Link>
+          <Link href="/contact-us" className="hover:underline">
+            Contact Us
+          </Link>
         </div>
       </div>
     </footer>

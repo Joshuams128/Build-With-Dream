@@ -9,13 +9,6 @@ const categories = [
   "Bedrooms",
   "Stairs",
   "Dining",
-  "Backsplash",
-  "Bathroom",
-  "Foundation Repair",
-  "Leak Repair",
-  "Outdoor Renovations",
-  "Stone Work",
-  "Windows & Doors",
 ];
 
 const projects = [
@@ -88,46 +81,6 @@ const projects = [
     description:
       "Updated staircase with painted risers, oak treads, and iron spindles for a crisp transitional look.",
     image: "/portfolio/portfolio-staircase.svg",
-    title: "Exterior Restoration",
-    category: "All",
-    description:
-      "Full-height masonry restoration with updated trim work for a refined curb appeal.",
-    image: "/house1.jpg",
-  },
-  {
-    title: "Backsplash Upgrade",
-    category: "Backsplash",
-    description:
-      "Sleek tile backsplash installed to brighten kitchens and protect cooking spaces.",
-    image: "/bathroom.jpg",
-  },
-  {
-    title: "Framing & Foundation",
-    category: "Foundation Repair",
-    description:
-      "Structural framing repair that reinforces openings and seals the building envelope.",
-    image: "/service1.jpg",
-  },
-  {
-    title: "Leak Detection",
-    category: "Leak Repair",
-    description:
-      "Targeted leak investigation and remediation to safeguard interiors from water damage.",
-    image: "/washroom.png",
-  },
-  {
-    title: "Stone Entryway",
-    category: "Stone Work",
-    description:
-      "Custom stone veneer around entryways to deliver durability and timeless character.",
-    image: "/stone.jpg",
-  },
-  {
-    title: "New Windows",
-    category: "Windows & Doors",
-    description:
-      "Energy-efficient window replacement that enhances natural light and insulation.",
-    image: "/window.svg",
   },
 ];
 

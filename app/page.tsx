@@ -31,9 +31,6 @@ export default function Home() {
                 Contact Us Today
               </button>
             </div>
-            <button className="mt-6 bg-[#0574C9] px-6 py-3 font-medium text-white hover:bg-[#0462A6]">
-              Contact Us Today
-            </button>
           </div>
         </div>
       </section>
