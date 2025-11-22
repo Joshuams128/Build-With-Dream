@@ -2,85 +2,57 @@ import Image from "next/image";
 
 const categories = [
   "All",
+  "Backsplash",
   "Bathroom",
-  "Kitchen",
-  "Living Spaces",
-  "Laundry",
-  "Bedrooms",
-  "Stairs",
-  "Dining",
+  "Foundation Repair",
+  "Leak Repair",
+  "Outdoor Renovations",
+  "Stone Work",
+  "Windows & Doors",
 ];
 
 const projects = [
   {
-    title: "Spa Ensuite Retreat",
-    category: "Bathroom",
+    title: "Exterior Restoration",
+    category: "All",
     description:
-      "Stone tile surrounds a freestanding tub and glass shower for a calming ensuite escape.",
-    image: "/portfolio/portfolio-bath-shower.svg",
+      "Full-height masonry restoration with updated trim work for a refined curb appeal.",
+    image: "/house1.jpg",
   },
   {
-    title: "Double Vanity Bathroom",
-    category: "Bathroom",
+    title: "Backsplash Upgrade",
+    category: "Backsplash",
     description:
-      "Bright double vanity with generous storage, quartz counters, and warm brushed hardware.",
-    image: "/portfolio/portfolio-vanity.svg",
+      "Sleek tile backsplash installed to brighten kitchens and protect cooking spaces.",
+    image: "/bathroom.jpg",
   },
   {
-    title: "Open Concept Kitchen",
-    category: "Kitchen",
+    title: "Framing & Foundation",
+    category: "Foundation Repair",
     description:
-      "Entertaining-friendly kitchen with a waterfall island, seating, and connected living area.",
-    image: "/portfolio/portfolio-kitchen-island.svg",
+      "Structural framing repair that reinforces openings and seals the building envelope.",
+    image: "/service1.jpg",
   },
   {
-    title: "Wine Bar Millwork",
-    category: "Kitchen",
+    title: "Leak Detection",
+    category: "Leak Repair",
     description:
-      "Custom built-in with glass displays, X-shelf wine storage, and a dedicated beverage fridge.",
-    image: "/portfolio/portfolio-wine-bar.svg",
+      "Targeted leak investigation and remediation to safeguard interiors from water damage.",
+    image: "/washroom.png",
   },
   {
-    title: "Range & Hood Feature",
-    category: "Kitchen",
+    title: "Stone Entryway",
+    category: "Stone Work",
     description:
-      "Marble-inspired backsplash and tailored hood surround highlight a professional gas range.",
-    image: "/portfolio/portfolio-range.svg",
+      "Custom stone veneer around entryways to deliver durability and timeless character.",
+    image: "/stone.jpg",
   },
   {
-    title: "Fireplace Feature Wall",
-    category: "Living Spaces",
+    title: "New Windows",
+    category: "Windows & Doors",
     description:
-      "Modern fireplace surround with media integration and cozy seating anchored in warm wood floors.",
-    image: "/portfolio/portfolio-fireplace.svg",
-  },
-  {
-    title: "Dining Room Refresh",
-    category: "Dining",
-    description:
-      "Neutral dining space layered with greenery, sculptural art, and comfortable seating for six.",
-    image: "/portfolio/portfolio-dining.svg",
-  },
-  {
-    title: "Laundry Room Upgrade",
-    category: "Laundry",
-    description:
-      "Durable cabinetry, deep sink, and stone counters transform a hardworking laundry into a tidy workspace.",
-    image: "/portfolio/portfolio-laundry.svg",
-  },
-  {
-    title: "Bedroom Retreat",
-    category: "Bedrooms",
-    description:
-      "Soft palettes, arched windows, and layered textiles create a restful primary bedroom oasis.",
-    image: "/portfolio/portfolio-bedroom.svg",
-  },
-  {
-    title: "Staircase Detailing",
-    category: "Stairs",
-    description:
-      "Updated staircase with painted risers, oak treads, and iron spindles for a crisp transitional look.",
-    image: "/portfolio/portfolio-staircase.svg",
+      "Energy-efficient window replacement that enhances natural light and insulation.",
+    image: "/window.svg",
   },
 ];
 
