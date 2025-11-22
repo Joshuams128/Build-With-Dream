@@ -57,6 +57,7 @@ export default function ServicesPage() {
             <div className="relative aspect-square w-72 max-w-full overflow-hidden rounded-full shadow-md">
               <Image
                 src="/bathroom.jpg"
+                src="/portfolio/portfolio-bath-shower.svg"
                 alt="Luxury bathroom renovation"
                 fill
                 className="object-cover"
@@ -69,6 +70,7 @@ export default function ServicesPage() {
           <div className="md:w-1/2 md:pl-8">
             <h2 className="text-2xl font-semibold text-[#0574C9]">
               Residential Transformations
+              Bathroom Renovations
             </h2>
             <p className="mt-4 text-sm leading-relaxed text-slate-700 md:text-base">
               From modern washrooms to full-home refreshes, we design and build spaces that elevate daily life. Every room is planned with your routines in mind—lighting, storage, and finishes that feel tailored to you.
@@ -78,6 +80,9 @@ export default function ServicesPage() {
               <span>▸ Spa-inspired washrooms</span>
               <span>▸ Full-home remodels</span>
               <span>▸ Precision tile work</span>
+              <span>▸ Quality Craftsmanship</span>
+              <span>▸ Innovative Design</span>
+              <span>▸ 20+ Years Experience</span>
             </div>
 
             <Link href="/bathrooms">
@@ -99,6 +104,8 @@ export default function ServicesPage() {
               <Image
                 src="/service1.jpg"
                 alt="Office renovation with statement wall"
+                src="/portfolio/portfolio-fireplace.svg"
+                alt="Stone and fireplace millwork"
                 fill
                 className="object-cover"
                 sizes="(min-width: 1024px) 24rem, (min-width: 768px) 50vw, 80vw"
@@ -110,6 +117,7 @@ export default function ServicesPage() {
           <div className="md:w-1/2 md:pl-8">
             <h2 className="text-2xl font-semibold text-[#0574C9]">
               Commercial &amp; Office Renovations
+              Stone Veneers &amp; Masonry Services
             </h2>
             <p className="mt-4 text-sm leading-relaxed text-slate-700 md:text-base">
               Renovations that support productivity and client experiences. From reception areas to boardrooms, we deliver polished environments that keep operations moving and match your brand standards.
@@ -119,6 +127,9 @@ export default function ServicesPage() {
               <span>▸ Phased scheduling</span>
               <span>▸ Budget &amp; deadline alignment</span>
               <span>▸ Tenant-friendly workflows</span>
+              <span>▸ Custom Design</span>
+              <span>▸ High Durability</span>
+              <span>▸ Variety of Styles</span>
             </div>
 
             {/* Testimonial-style box */}
@@ -148,6 +159,8 @@ export default function ServicesPage() {
               <Image
                 src="/outdoor.jpg"
                 alt="Outdoor living renovation"
+                src="/portfolio/portfolio-kitchen-island.svg"
+                alt="Open concept kitchen and living"
                 fill
                 className="object-cover"
                 sizes="(min-width: 1024px) 24rem, (min-width: 768px) 50vw, 80vw"
@@ -159,6 +172,7 @@ export default function ServicesPage() {
           <div className="md:w-1/2 md:pl-8">
             <h2 className="text-2xl font-semibold text-[#0574C9]">
               Exteriors, Masonry &amp; Outdoor Living
+              Home Improvements
             </h2>
             <p className="mt-4 text-sm leading-relaxed text-slate-700 md:text-base">
               Curb appeal and gathering spaces built to last—from stone veneers and fireplaces to decks, patios, and covered porches. We also handle specialty tiling for patios, entries, and feature walls.
@@ -168,6 +182,9 @@ export default function ServicesPage() {
               <span>▸ Outdoor kitchens &amp; patios</span>
               <span>▸ Stonework &amp; fireplaces</span>
               <span>▸ Weather-ready materials</span>
+              <span>▸ Basement Remodels</span>
+              <span>▸ Kitchen Renovations</span>
+              <span>▸ Deck &amp; Patio Additions</span>
             </div>
 
             <div className="mt-6 rounded bg-slate-50 px-4 py-3 text-xs italic text-slate-700 md:text-sm">
