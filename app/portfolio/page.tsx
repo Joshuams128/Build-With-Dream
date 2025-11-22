@@ -87,7 +87,7 @@ export default function PortfolioPage() {
               className={`rounded-full border px-4 py-2 text-sm font-semibold transition-colors ${
                 category === "All"
                   ? "border-[#0574C9] bg-[#0574C9] text-white"
-                  : "border-emerald-300 bg-white text-emerald-700 hover:bg-emerald-50"
+                  : "border-blue-200 bg-white text-[#0f4f83] hover:bg-blue-50"
               }`}
             >
               {category}
