@@ -14,6 +14,7 @@ export function Footer() {
         </div>
 
         <div className="flex items-center justify-center gap-4 text-sm font-medium text-[#0574C9] md:justify-end">
+        <div className="flex items-center justify-center gap-4 text-sm font-medium text-[#0574C9]">
           <a
             href="https://www.instagram.com"
             target="_blank"
@@ -32,6 +33,10 @@ export function Footer() {
             <span aria-hidden>👍</span>
             <span>Facebook</span>
           </a>
+        </div>
+
+        <div className="text-center text-xs text-slate-500 md:text-right">
+          Website by Ascension Marketing.
         </div>
       </div>
     </footer>
